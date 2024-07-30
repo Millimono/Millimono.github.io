@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV de Sory Millimono</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 210mm;
+            max-width: 100%;
+            margin: 10mm auto;
+            padding: 10mm;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            page-break-inside: avoid;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #007bff;
+        }
+
+        header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        header h1 {
+            margin: 0 0 0 10px;
+            font-size: 1.5rem;
+            color: #007bff;
+        }
+
+        .column-left,
+        .column-right {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .column-left {
+            width: 30%;
+            padding-right: 10px;
+            border-right: 2px solid #007bff;
+        }
+
+        .column-right {
+            width: 65%;
+            padding-left: 10px;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            color: #007bff;
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin: 5px 0;
+            font-size: 0.8rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin: 5px 0;
+            font-size: 0.8rem;
+        }
+
+        .section {
+            margin-top: 10px;
+        }
+
+        .skills ul,
+        .experience ul,
+        .education ul,
+        .projects ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills li,
+        .experience li,
+        .education li,
+        .projects li {
+            background: #f4f4f4;
+            margin: 3px;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            flex: 1 1 45%;
+            box-sizing: border-box;
+        }
+
+        .skills li img,
+        .projects li img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 5px 0;
+            font-size: 0.8rem;
+        }
+
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="images/profile.jpg" alt="Sory Millimono">
+            <h1>Sory Millimono</h1>
+        </header>
+        <div class="column-left">
+            <section class="section forces">
+                <h2>Forces</h2>
+                <ul>
+                    <li>Motivé par le succès</li>
+                    <li>Sociable</li>
+                    <li>Déterminer</li>
+                    <li>Ponctuel</li>
+                    <li>Travail en équipe</li>
+                    <li>Communication</li>
+                </ul>
+            </section>
+            <section class="section connaissance">
+                <h2>Connaissance</h2>
+                <ul>
+                    <li>Microsoft-Word</li>
+                    <li>Microsoft-Excel</li>
+                    <li>Management</li>
+                    <li>Technique bancaire</li>
+                    <li>Télémarketing</li>
+                    <li>Blogging</li>
+                    <li>Mobilisation des ressources</li>
+                </ul>
+            </section>
+            <section class="section language">
+                <h2>Langue</h2>
+                <ul>
+                    <li>Français: Native</li>
+                    <li>Soussou: Native</li>
+                    <li>Maninka: Native</li>
+                    <li>Anglais: Basic</li>
+                </ul>
+            </section>
+        </div>
+        <div class="column-right">
+            <section class="section about">
+                <h2>À propos de moi</h2>
+                <p>En tant que chercheur en Intelligence Artificielle et Deep Learning, je me spécialise dans l'évaluation et l'amélioration des méthodes de diagnostic pour la détection précoce du cancer du sein. Mon expertise englobe la bio-informatique, l'imagerie médicale et les technologies de pointe en intelligence artificielle.</p>
+                <p>Avec une solide formation en bio-informatique et en modélisation des systèmes complexes appliquée à la santé, j'ai acquis des compétences approfondies en développement logiciel et en analyse de données. J'ai une expérience significative dans le développement d'algorithmes de machine learning et de deep learning, dans la création d'applications mobiles, ainsi que dans la création d'applications complètes allant du front-end au back-end.</p>
+            </section>
+
+
+            <section class="section skills">
+                <h2>Compétences</h2>
+                <ul>
+                    <li><img src="images/tensorflow.png" alt="TensorFlow"> Deep Learning et Machine Learning</li>
+                    <li><img src="images/bioinformatics.jpeg" alt="Bioinformatics"> Bio-informatique et Imagerie Médicale</li>
+                    <li><img src="images/fullstack.jpg" alt="Full Stack Development"> Développement Full Stack</li>
+                    <li><img src="images/bigdata.jpeg" alt="Big Data"> Big Data et Cloud Computing</li>
+                    <li><img src="images/devops.jpeg" alt="DevOps"> DevOps et Conteneurisation</li>
+                    <li><img src="images/dataanalysis.jpg" alt="Data Analysis"> Analyse et Visualisation des Données</li>
+                    <li><img src="images/flutter.png" alt="Flutter"> Développement Mobile avec Flutter</li>
+                    <li><img src="images/react.jpeg" alt="React Native"> Développement Mobile avec React Native</li>
+                    <li><img src="images/androidstudio.jpeg" alt="Android Studio"> Développement Mobile avec Android Studio</li>
+                </ul>
+            </section>
+
+            <section class="section experience">
+                <h2>Expérience Professionnelle</h2>
+                <ul>
+                    <li>
+                        <strong>Professeur Titulaire</strong>
+                        <p class="small-text">Université Libre de Guinée & IST Guinée – Conakry</p>
+                        <p class="small-text">15/10/2023 - 10/02/2024</p>
+                        <p class="small-text">Cours sur Python pour le Développement Logiciel.</p>
+                    </li>
+                    <li>
+                        <strong>Expert Assistant en AI</strong>
+                        <p class="small-text">Orange Digital Center (ODC) Guinée – Conakry</p>
+                        <p class="small-text">09/08/2023 - 23/09/2023</p>
+                        <p class="small-text">Assister dans les projets de Computer Vision et du NLP.</p>
+                    </li>
+                    <li>
+                        <strong>Professeur Titulaire</strong>
+                        <p class="small-text">Université Mahatma Gandhi de Conakry (UMGC), Guinée – Conakry</p>
+                        <p class="small-text">12/03/2023 - 22/05/2023</p>
+                        <p class="small-text">Cours de SQL-server.</p>
+                    </li>
+                    <li>
+                        <strong>Ingénieur Informatique</strong>
+                        <p class="small-text">TULIP INDUSTRIE, Guinée – Conakry</p>
+                        <p class="small-text">03/04/2023 - 03/07/2023</p>
+                        <p class="small-text">Développement d'applications mobiles, gestion des bases de données, et biométrie par empreinte digitale.</p>
+                    </li>
+                    <li>
+                        <strong>Responsable Laboratoire de recherche</strong>
+                        <p class="small-text">ENSAM (E2SN), Rabat – Maroc</p>
+                        <p class="small-text">25/02/2022 - 01/08/2022</p>
+                        <p class="small-text">Mise en place de programmes de traitement d’imagerie médicale et déploiement sur le cloud.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section projects">
+                <h2>Projets</h2>
+                <ul>
+                    <li>
+                        <strong>Détection des tumeurs cérébrales</strong>
+                        <p class="small-text">Utilisation des réseaux de neurones convolutifs et du transfert de learning.</p>
+                        <a href="https://github.com/Millimono/project1" target="_blank">Voir le projet</a>
+                    </li>
+                    <li>
+                        <strong>Utilisation de l’IA pour le diagnostic automatique de la Covid19</strong>
+                        <p class="small-text">Mise en place d'un outil de traitement des images médicales.</p>
+                        <a href="https://github.com/Millimono/project2" target="_blank">Voir le projet</a>
+                    </li>
+                    <li>
+                        <strong>Application de Gestion de Véhicules</strong>
+                        <p class="small-text">Développement d'une application de gestion de flotte de véhicules en Java.</p>
+                        <a href="https://github.com/Millimono/project3" target="_blank">Voir le projet</a>
+                    </li>
+                    <li>
+                        <strong>Exploratory Data Analysis</strong>
+                        <p class="small-text">Analyse exploratoire des données pour divers projets.</p>
+                        <a href="https://github.com/Millimono/project4" target="_blank">Voir le projet</a>
+                    </li>
+                    <li>
+                        <strong>Virtualisation et Conteneurisation</strong>
+                        <p class="small-text">Projet utilisant Kubernetes pour la gestion de conteneurs.</p>
+                        <a href="https://github.com/Millimono/project5" target="_blank">Voir le projet</a>
+                    </li>
+                    <li>
+                        <strong>Big Data avec Hadoop</strong>
+                        <p class="small-text">Projet de gestion de Big Data en utilisant Hadoop.</p>
+                        <a href="https://github.com/Millimono/project6" target="_blank">Voir le projet</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section contact">
+                <h2>Contact</h2>
+                <p class="small-text">Adresse: 654 rue Desnoyers, Montréal QC</p>
+                <p class="small-text">Téléphone: +1 5142504709</p>
+                <p class="small-text">Email: <a href="mailto:millimono64.sm@gmail.com">millimono64.sm@gmail.com</a></p>
+                <p class="small-text">GitHub: <a href="https://github.com/Millimono" target="_blank">Millimono</a></p>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
